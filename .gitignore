@@ -1,0 +1,23 @@
+build
+!.vscode/*
+*.code-workspace
+# Ignorar arquivos de build
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+# Pasta de saída/geração
+output/
+*.uf2
+# Arquivos gerados pelo Pico SDK
+*.d
+*.lst
+
