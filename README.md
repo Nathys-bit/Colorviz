@@ -51,3 +51,15 @@ O objetivo principal é oferecer uma ferramenta compacta e interativa para que p
     GPIO 5           -- Um lado do botão
     GND          --- Outro lado do botão
     (Usar pull-up interno no GPIO5 via código)
+
+## Créditos
+
+Este projeto utiliza referências e trechos de código de outros autores para fins educacionais e de aprendizado. Abaixo estão os devidos créditos:
+
+- Pasta `dhcpserver`: https://github.com/raspberrypi/pico-examples/tree/4c3a3dc0196dd426fddd709616d0da984e027bab/pico_w/wifi/access_point/dhcpserver
+- Pasta `dnsserver`: https://github.com/raspberrypi/pico-examples/tree/4c3a3dc0196dd426fddd709616d0da984e027bab/pico_w/wifi/access_point/dnsserver
+- Arquivo `tcs34725.c`: https://github.com/ASCCJR/TESTE_tcs34725_BITDOGLAB/blob/072159b1d4ce1397aea98df3dddf168564e9503f/tcs34725.c
+- Arquivo `tcs34725.h`: https://github.com/ASCCJR/TESTE_tcs34725_BITDOGLAB/blob/072159b1d4ce1397aea98df3dddf168564e9503f/tcs34725.h
+- Arquivo `lwipopts.h`: https://github.com/raspberrypi/pico-examples/blob/4c3a3dc0196dd426fddd709616d0da984e027bab/pico_w/wifi/lwipopts_examples_common.h
+
+  
